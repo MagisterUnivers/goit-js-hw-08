@@ -1,1 +1,0 @@
-{"mappings":"AACAA,QAAQC,IADE,GAEVC,EAAI,EACJF,QAAQC,IAAIC","sources":["src/index.js"],"sourcesContent":["const a = 1;\nconsole.log(a);\nb = 2;\nconsole.log(b);\n"],"names":["console","log","b"],"version":3,"file":"index.d4432aac.js.map"}

@@ -1,0 +1,1 @@
+{"mappings":"YACAA,QAAQC,IADE,GAIVD,QAAQC,IADE,E","sources":["src/index.js"],"sourcesContent":["const a = 1;\nconsole.log(a);\n\nconst b = 2;\nconsole.log(b);\n"],"names":["console","log"],"version":3,"file":"index.12236d97.js.map"}
