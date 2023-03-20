@@ -1,1 +1,0 @@
-{"mappings":"AACAA,QAAQC,IADE,GAIVD,QAAQC,IADE","sources":["src/index.js"],"sourcesContent":["const a = 1;\nconsole.log(a);\n\nconst b = 2;\nconsole.log(b);\n"],"names":["console","log"],"version":3,"file":"index.34a4c54f.js.map"}
