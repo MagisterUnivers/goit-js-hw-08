@@ -1,4 +1,5 @@
 const a = 1;
 console.log(a);
-b = 2;
+
+const b = 2;
 console.log(b);
