@@ -2,4 +2,7 @@
 import { galleryItems } from './gallery-items';
 // Change code below this line
 
-console.log(galleryItems);
+a = 1;
+console.log(a);
+
+// console.log(galleryItems);
