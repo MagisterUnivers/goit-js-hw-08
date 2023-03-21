@@ -1,9 +1,32 @@
 // Add imports above this line
 import { galleryItems } from './gallery-items';
-('use strict');
+import SimpleLightbox from 'simplelightbox/dist/simple-lightbox.esm';
+// Додатковий імпорт стилів
+import 'simplelightbox/dist/simple-lightbox.min.css';
 // Change code below this line
+const ulGallery = document.querySelector('.gallery');
+const itemGallery = createGalleryItem(galleryItems);
+ulGallery.insertAdjacentHTML('afterbegin', itemGallery);
+const links = document.querySelectorAll('.gallery__item');
 
-a = 1;
-console.log(a);
+const lightbox = new SimpleLightbox('.gallery a', {
+  captions: true,
+  captionDelay: 250,
+  captionPosition: 'bottom',
+});
 
-// console.log(galleryItems);
+// links.forEach((link) =>
+// 	link.addEventListener('click', (e) => {
+// 		e.preventDefault();
+// 	})
+// );
+
+function createGalleryItem(items) {
+  return items
+    .map(
+      image => `<a class="gallery__item" href='${image.original}'>
+      <img class="gallery__image" src='${image.preview}' alt='${image.description}' title='${image.description}' />
+    </a>`
+    )
+    .join('');
+}
