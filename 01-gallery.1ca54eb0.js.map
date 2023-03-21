@@ -1,0 +1,1 @@
+{"mappings":"AAIAA,EAAI,EACJC,QAAQC,IAAIF","sources":["src/js/01-gallery.js"],"sourcesContent":["// Add imports above this line\nimport { galleryItems } from './gallery-items';\n// Change code below this line\n\na = 1;\nconsole.log(a);\n\n// console.log(galleryItems);\n"],"names":["a","console","log"],"version":3,"file":"01-gallery.1ca54eb0.js.map"}
